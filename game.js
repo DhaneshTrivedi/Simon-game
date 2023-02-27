@@ -1,3 +1,4 @@
+alert("This is a memory game , Tap on the button that flashes in the order as button flashes . Suppose yellow button flashes first , tap on it then blue button flashes tap yellow+blue button and so on.....")
 let namee = prompt("Enter your name");
 var buttonColours = ["red", "blue", "green", "yellow"];
 
