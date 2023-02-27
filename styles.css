@@ -5,9 +5,14 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+  font-size: 2.5rem;
+  margin:  3%;
   color: #FEF2BF;
+}
+@media (max-width:900px){
+  #level-title{
+    font-size: small;
+  }
 }
 .new{
   font-family: 'Press Start 2P', cursive;
@@ -31,6 +36,13 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+}
+@media (max-width:900px){
+  .btn {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+  }
 }
 
 .game-over {
